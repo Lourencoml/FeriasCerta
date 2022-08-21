@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+        *{  }
+        :root{
+            --cor0:#FE4442;
+            --cor1:#D93CE6;
+            --cor2:#804EFC;
+            --cor3:#3c78e6e5;
+            --cor4:#5dfaff69;
+
+            --font0: 'Bangers';
+
+
+        }
+        body{background-color: white;}
+        
+        header{margin:auto; max-width: 1000px; height: 250px; 
+            background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
+              border-top-left-radius: 5px; border-top-right-radius: 5px; box-shadow: 1px 1px 0px 1px 5px black; }
+       
+        header > h1{text-align: center; line-height: 250%; font-size: 6em;  font-style: italic; text-shadow: 1px 1px 5px black; letter-spacing: 5px;}
+
+        
+        nav{min-width: 320px;  max-width:1000px; margin: auto; background-color: var(--cor2); text-align: center; 
+             height: 50px;  box-shadow: 1px 1px 0px 1px 5px rgba(7, 7, 7, 0.418); } 
+
+        a{ line-height: 50px; text-decoration: none; width: 100px; height: 50px; background-color:var(--cor2);
+             border-radius: 5px; color:var(--cor0); display: inline-block; text-align: center;}
+
+        a:hover{background-color: var(--cor0); color:var(--cor4); transition: 0.5s; }
+
+        a:active{background-color: rgb(199, 193, 184); transition: 0.5s;}
+
+        main {  min-width: 400px; max-width:1000px;  height: 1000px; background-color:var(--cor4); 
+            margin: auto; margin-top:0%; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;}
+
+       h1 { margin-top:0% ; text-align: center; color: #3d312b; font-family: var(--font0); color: var(--cor0);}
+       main > h1{padding-top: 2em;}
+
+        main > figure{margin: auto; width: 500px; height: 500px; background-color: aliceblue; border-radius: 1px; box-shadow: 1px 1px 20px black;}
+
+        figure img{display:block; width: 500px; height: 300px; box-shadow: 1px 0px 1px black;  margin: auto; margin: auto; border-radius: 0.5px;}
+        
+        main h2{color: #FE4442; font-family: var(--font0); text-align: center;}
+
+        main p{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;}
+
+        main footer{color: white; background-color: var(--cor2); height: 30px; width: 1000px; margin-top: 352px; display: block; text-align: center; box-shadow: 0px 1px 1px 1px 20px black; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+
+       main .copy{ padding-top: 5px;}     
+
+
+    </style>
+</head>
+<body> <header>
+    <h1>Férias Certa🏄</h1>
+    </header>
+<nav>
+<a href="">Inicio</a>
+<a href="">Pacotes</a>
+<a href="">Passagens</a>
+<a href="">Duvidas</a>
+
+    </nav>
+        <main><h1>Aqui a Diversão é Garantida:</h1>
+
+        <figure>
+        <img src="imagens/pexels-marctutorials-870170.jpg">
+        <h2>Viva Mais:</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum esse aut, et, obcaecati repellendus aliquid nam voluptatibus quo alias ut tempora explicabo minima ratione eveniet nemo! Earum magnam architecto optio.</p>
+        
+        </figure>
+        
+        <footer><p class="copy">Desenvolvedor - Matheus Lourenço</p></footer>
+        </main>
+    
+</body>
+</html>
